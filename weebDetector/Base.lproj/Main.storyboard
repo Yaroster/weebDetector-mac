@@ -793,7 +793,7 @@
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wV1-3d-B4O">
                                 <rect key="frame" x="42" y="123" width="367" height="29"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <textFieldCell key="cell" lineBreakMode="clipping" title="What service do you want to use ?" id="mgY-Qx-67e">
+                                <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" title="What type of weeb are you ?" id="mgY-Qx-67e">
                                     <font key="font" metaFont="system" size="25"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -811,7 +811,7 @@
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="F19-bs-qoM">
                                 <rect key="frame" x="297" y="35" width="116" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <buttonCell key="cell" type="push" title="  Kitsu  " bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="JH1-Ok-HDr">
+                                <buttonCell key="cell" type="push" title="Anime" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="JH1-Ok-HDr">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system" size="14"/>
                                 </buttonCell>
@@ -823,20 +823,14 @@
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fiG-N1-cfX">
                                 <rect key="frame" x="38" y="35" width="116" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <buttonCell key="cell" type="push" title="MyAnimeList" bezelStyle="rounded" alignment="center" enabled="NO" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="tv8-T1-bBi">
+                                <buttonCell key="cell" type="push" title="Manga" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="tv8-T1-bBi">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system"/>
+                                    <font key="font" metaFont="system" size="14"/>
                                 </buttonCell>
+                                <connections>
+                                    <segue destination="ipq-zB-xga" kind="sheet" id="vtf-Nx-Riy"/>
+                                </connections>
                             </button>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kRH-Be-XF8">
-                                <rect key="frame" x="20" y="21" width="152" height="13"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <textFieldCell key="cell" lineBreakMode="clipping" title="MyAnimeList isn't available yet" id="a9a-jz-yEB">
-                                    <font key="font" metaFont="system" size="10"/>
-                                    <color key="textColor" name="secondaryLabelColor" catalog="System" colorSpace="catalog"/>
-                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                </textFieldCell>
-                            </textField>
                         </subviews>
                     </view>
                 </viewController>
@@ -853,35 +847,14 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JNo-z7-O5s">
-                                <rect key="frame" x="197" y="263" width="57" height="29"/>
+                                <rect key="frame" x="187" y="263" width="77" height="29"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" title="Kitsu" id="b5D-ni-9ng">
+                                <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" title="Anime" id="b5D-ni-9ng">
                                     <font key="font" metaFont="system" size="25"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3R6-Sm-bmg">
-                                <rect key="frame" x="129" y="242" width="123" height="13"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <textFieldCell key="cell" lineBreakMode="clipping" title="You need to import your " id="NPs-Nb-HrM">
-                                    <font key="font" metaFont="system" size="10"/>
-                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                </textFieldCell>
-                            </textField>
-                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wuV-dr-dOf">
-                                <rect key="frame" x="250" y="242" width="71" height="13"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <buttonCell key="cell" type="bevel" title="Kitsu XML file" bezelStyle="rounded" alignment="center" imageScaling="proportionallyDown" inset="2" id="Yue-Cd-khz">
-                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system" size="10"/>
-                                </buttonCell>
-                                <color key="contentTintColor" name="linkColor" catalog="System" colorSpace="catalog"/>
-                                <connections>
-                                    <action selector="KitsuXML_link:" target="Vor-lS-b57" id="UaW-mH-Za8"/>
-                                </connections>
-                            </button>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zva-kb-p0M">
                                 <rect key="frame" x="18" y="199" width="112" height="19"/>
                                 <autoresizingMask key="autoresizingMask"/>
@@ -899,7 +872,7 @@
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
-                                    <action selector="Kitsu_XML_file:" target="Vor-lS-b57" id="4kW-F8-Vrm"/>
+                                    <action selector="anime_XML_file:" target="Vor-lS-b57" id="koj-PH-x8N"/>
                                 </connections>
                             </button>
                             <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="17W-CE-N2Q">
@@ -908,15 +881,6 @@
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" enabled="NO" sendsActionOnEndEditing="YES" borderStyle="bezel" drawsBackground="YES" id="gVQ-3I-kSn">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                </textFieldCell>
-                            </textField>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xzU-PL-QO0">
-                                <rect key="frame" x="30" y="63" width="385" height="29"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" id="DNV-rG-ahg">
-                                    <font key="font" metaFont="system" size="25"/>
-                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
@@ -940,20 +904,189 @@
                                     <action selector="weeb_name_congratulations:" target="Vor-lS-b57" id="A5K-G8-FMr"/>
                                 </connections>
                             </textField>
+                            <box verticalHuggingPriority="750" fixedFrame="YES" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="Ego-aC-Mn8">
+                                <rect key="frame" x="0.0" y="147" width="450" height="5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            </box>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3R6-Sm-bmg">
+                                <rect key="frame" x="110" y="242" width="123" height="13"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="You need to import your " id="NPs-Nb-HrM">
+                                    <font key="font" metaFont="system" size="10"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wuV-dr-dOf">
+                                <rect key="frame" x="228" y="242" width="104" height="13"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="bevel" title="MAL/Kitsu Anime file" bezelStyle="rounded" alignment="center" imageScaling="proportionallyDown" inset="2" id="Yue-Cd-khz">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system" size="10"/>
+                                </buttonCell>
+                                <color key="contentTintColor" name="linkColor" catalog="System" colorSpace="catalog"/>
+                                <connections>
+                                    <action selector="Anime_XML_link:" target="Vor-lS-b57" id="H3c-5F-yjv"/>
+                                </connections>
+                            </button>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lHB-4D-0Xh">
+                                <rect key="frame" x="54" y="226" width="361" height="13"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="Your result can be a negative or +100% value depending on your weebness" id="jd3-lT-KCW">
+                                    <font key="font" metaFont="system" size="10"/>
+                                    <color key="textColor" name="tertiaryLabelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ACj-UC-bD3">
+                                <rect key="frame" x="30" y="57" width="385" height="29"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" id="STU-9M-gQt">
+                                    <font key="font" metaFont="system" size="25"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
                         </subviews>
                     </view>
                     <connections>
                         <outlet property="KitsuButton_link_outlet" destination="wuV-dr-dOf" id="xCO-PU-g2x"/>
                         <outlet property="Kitsu_clicked_outlet" destination="wuV-dr-dOf" id="C3c-74-rFw"/>
-                        <outlet property="congratulationsLabel" destination="xzU-PL-QO0" id="p8p-2h-yF4"/>
+                        <outlet property="anime_filename_field" destination="17W-CE-N2Q" id="FkC-UX-774"/>
+                        <outlet property="anime_weeb_name_congratulations" destination="NCO-rH-Db0" id="nIO-9K-j02"/>
+                        <outlet property="anime_weeb_percentageLabel" destination="ACj-UC-bD3" id="Piz-rJ-qhB"/>
                         <outlet property="filename_field" destination="17W-CE-N2Q" id="zQt-Wa-7xj"/>
                         <outlet property="weeb_name_congratulations" destination="NCO-rH-Db0" id="BNl-pa-kJs"/>
-                        <outlet property="weeb_percentageLabel" destination="xzU-PL-QO0" id="pjM-XK-JHE"/>
                     </connections>
                 </viewController>
                 <customObject id="4MB-19-AMi" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="74" y="2024"/>
+            <point key="canvasLocation" x="329" y="2071"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="HEw-WT-hHA">
+            <objects>
+                <viewController id="ipq-zB-xga" customClass="ViewController" customModule="weebDetector" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="2sz-bL-Hft">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="312"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GBl-yj-Gqy">
+                                <rect key="frame" x="184" y="263" width="83" height="29"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" title="Manga" id="Vpx-O5-Naq">
+                                    <font key="font" metaFont="system" size="25"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="H6D-B1-8bl">
+                                <rect key="frame" x="20" y="198" width="109" height="19"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="MAL XML file :" id="6sC-OW-4qm">
+                                    <font key="font" metaFont="system" size="16"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nko-Yq-c2A">
+                                <rect key="frame" x="340" y="155" width="96" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="push" title="Browse..." bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Y8U-Ax-TU3">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="manga_XML_file:" target="ipq-zB-xga" id="q35-wm-Iia"/>
+                                </connections>
+                            </button>
+                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3TE-6N-E7P">
+                                <rect key="frame" x="143" y="197" width="287" height="21"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" enabled="NO" sendsActionOnEndEditing="YES" borderStyle="bezel" drawsBackground="YES" id="BU2-Gd-wjv">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3IW-TC-CHs">
+                                <rect key="frame" x="32" y="63" width="381" height="29"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" id="5KS-Xi-hRS">
+                                    <font key="font" metaFont="system" size="25"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cH2-kK-b7K">
+                                <rect key="frame" x="32" y="112" width="381" height="29"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" id="Lmk-pc-WQT">
+                                    <font key="font" metaFont="system" size="25"/>
+                                    <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <connections>
+                                    <action selector="weeb_name_congratulations:" target="Vor-lS-b57" id="amh-C2-qq8"/>
+                                </connections>
+                            </textField>
+                            <box verticalHuggingPriority="750" fixedFrame="YES" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="fY8-0M-MPR">
+                                <rect key="frame" x="0.0" y="148" width="450" height="4"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            </box>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Itb-IY-igt">
+                                <rect key="frame" x="108" y="242" width="119" height="13"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="You need to import your " id="eN9-gx-5lE">
+                                    <font key="font" metaFont="system" size="10"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uqz-ct-FvD">
+                                <rect key="frame" x="227" y="242" width="107" height="13"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="bevel" title="MAL/Kitsu Manga file" bezelStyle="rounded" alignment="center" imageScaling="proportionallyDown" inset="2" id="iGe-8E-FP4">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system" size="10"/>
+                                </buttonCell>
+                                <color key="contentTintColor" name="linkColor" catalog="System" colorSpace="catalog"/>
+                                <connections>
+                                    <action selector="Manga_XML_link:" target="ipq-zB-xga" id="79c-ZL-hEN"/>
+                                </connections>
+                            </button>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YjV-gn-cPR">
+                                <rect key="frame" x="34" y="13" width="376" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="push" title="Exit weebDetector (or minimize and quit)" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="o11-VO-TNs">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                            </button>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UCz-A1-sL7">
+                                <rect key="frame" x="40" y="226" width="365" height="13"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="Your result can be a negative or +100% value depending on your weebness" id="jNU-vX-btG">
+                                    <font key="font" metaFont="system" size="10"/>
+                                    <color key="textColor" name="tertiaryLabelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                        </subviews>
+                    </view>
+                    <connections>
+                        <outlet property="MAL_filename_field" destination="3TE-6N-E7P" id="Uyu-fO-3oR"/>
+                        <outlet property="MAL_weeb_name_congratulations" destination="cH2-kK-b7K" id="VSd-8r-wYY"/>
+                        <outlet property="MAL_weeb_percentageLabel" destination="3IW-TC-CHs" id="SuK-g4-Zls"/>
+                        <outlet property="Manga_XML_file" destination="Nko-Yq-c2A" id="dcK-57-i7x"/>
+                        <outlet property="manga_filename_field" destination="3TE-6N-E7P" id="F1t-fp-F7U"/>
+                        <outlet property="manga_weeb_name_congratulations" destination="cH2-kK-b7K" id="hfb-ZH-BGk"/>
+                        <outlet property="manga_weeb_percentageLabel" destination="3IW-TC-CHs" id="cgl-65-thZ"/>
+                    </connections>
+                </viewController>
+                <customObject id="RQ5-yD-52a" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-180" y="2071"/>
         </scene>
     </scenes>
     <resources>

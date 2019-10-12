@@ -25,19 +25,31 @@ class ViewController: NSViewController {
         }
     }
     
-    @IBAction func KitsuXML_link(_ sender: Any) {
+    @IBAction func Anime_XML_link(_ sender: Any) {
         NSWorkspace.shared.open(NSURL(string: "https://malscraper.azurewebsites.net/")! as URL)
     }
     
-    @IBOutlet weak var filename_field: NSTextField!
+    @IBAction func Manga_XML_link(_ sender: Any) {
+        NSWorkspace.shared.open(NSURL(string: "https://malscraper.azurewebsites.net/")! as URL)
+    }
     
-    @IBOutlet var weeb_name_congratulations: NSTextField!
+
+    @IBOutlet var anime_filename_field: NSTextField!
     
-    @IBOutlet var weeb_percentageLabel: NSTextField!
+    @IBOutlet var anime_weeb_name_congratulations: NSTextField!
     
-    @IBAction func Kitsu_XML_file(_ sender: Any) {
+    @IBOutlet var anime_weeb_percentageLabel: NSTextField!
+    
+    @IBOutlet var manga_filename_field: NSTextField!
+    
+    @IBOutlet var manga_weeb_name_congratulations: NSTextField!
+    
+    @IBOutlet var manga_weeb_percentageLabel: NSTextField!
+    
+    
+    @IBAction func anime_XML_file(_ sender: Any) {
         let dialog = NSOpenPanel();
-            
+
             dialog.title                   = "Choose a .xml file";
             dialog.showsResizeIndicator    = true;
             dialog.showsHiddenFiles        = true;
@@ -50,7 +62,7 @@ class ViewController: NSViewController {
             let result = dialog.url // Pathname of the file
             if (result != nil) {
                 let path = result!.path
-                filename_field.stringValue = path
+                anime_filename_field.stringValue = path
                     do {
                         let contents = try String(contentsOfFile: path)
                         let xml = try! XML.parse(contents)
@@ -61,24 +73,61 @@ class ViewController: NSViewController {
                         let weeb_planned = Int(xml.myanimelist.myinfo.user_total_plantowatch.text!) ?? 1
                         let weebpercentage = (weeb_animecompleted*100)/weeb_totalanime + (weeb_planned*weeb_animewatching/weeb_totalanime)
                         print(weebpercentage)
-                        
-                        weeb_name_congratulations.stringValue = "Congratulations " + weeb_name + " !"
-                        
-                        weeb_percentageLabel.stringValue = "You're a weeb of level: " + String(weebpercentage) + "%"
-                        
-                        
+                        anime_weeb_name_congratulations.stringValue = "Congratulations " + weeb_name + " !"
+                        anime_weeb_percentageLabel.stringValue = "You're a weeb of level: " + String(weebpercentage) + "%"
                     } catch {
                         print("This could not be loaded")
                     }
                 } else {
                     print("This isn't a valid XML file")
                 }
-
             } else {
                 // User clicked on "Cancel"
                 return
             }
+    }
+    
+
+    @IBAction func manga_XML_file(_ sender: Any) {
+        let dialog = NSOpenPanel();
+
+            dialog.title                   = "Choose a .xml file";
+            dialog.showsResizeIndicator    = true;
+            dialog.showsHiddenFiles        = true;
+            dialog.canChooseDirectories    = true;
+            dialog.canCreateDirectories    = true;
+            dialog.allowsMultipleSelection = false;
+            dialog.allowedFileTypes        = ["xml"];
+
+        if (dialog.runModal() == NSApplication.ModalResponse.OK) {
+            let result = dialog.url // Pathname of the file
+            if (result != nil) {
+                let path = result!.path
+                manga_filename_field.stringValue = path
+                    do {
+                        let contents = try String(contentsOfFile: path)
+                        let xml = try! XML.parse(contents)
+                        let weeb_name = (xml.myanimelist.myinfo.user_name.text!)
+                        let weeb_totalmanga = Int(xml.myanimelist.myinfo.user_total_manga.text!) ?? 1
+                        let weeb_mangareading = Int(xml.myanimelist.myinfo.user_total_reading.text!) ?? 1
+                        let weeb_mangacompleted = Int(xml.myanimelist.myinfo.user_total_completed.text!) ?? 1
+                        let weeb_planned = Int(xml.myanimelist.myinfo.user_total_plantoread.text!) ?? 1
+                        let weeb_dropped = Int(xml.myanimelist.myinfo.user_total_dropped.text!) ?? 1
+                        let weebpercentage = (weeb_mangacompleted*100)/weeb_totalmanga + (weeb_planned*weeb_mangareading/weeb_totalmanga) - weeb_dropped
+                        print(weebpercentage)
+                        manga_weeb_name_congratulations.stringValue = "Congratulations " + weeb_name + " !"
+                        manga_weeb_percentageLabel.stringValue = "You're a weeb of level: " + String(weebpercentage) + "%"
+                    } catch {
+                        print("This could not be loaded")
+                    }
+                } else {
+                    print("This isn't a valid XML file")
+                }
+            } else {
+                // User clicked on "Cancel"
+                return
         }
+    }
     
     @IBAction func got_itbutton(_ sender: Any) {
         NSApplication.shared.terminate(self)
