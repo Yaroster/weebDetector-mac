@@ -1,6 +1,14 @@
 # weebDetector-mac
 The very not-ready-for-release version of weebDetector
 the friendly open-source weeb analysis tool !
+
+To do:
+- [ ] Error Handling when an invalid XML file is parsed
+- [ ] Simplifying Code
+- [ ] Layout cleaning
+- [ ] Initializing segues properly
+- [ ] Disabling _XML_file functions after calculations
+
 ## Made for MyAnimeList and Kitsu users !
 (also my very first swift app)
 
