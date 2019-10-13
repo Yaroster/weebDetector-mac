@@ -1,6 +1,6 @@
 # weebDetector-mac
 ## The mac export of project weebDetector
-### [the friendly open-source weeb analysis tool !] (https://github.com/Yaroster/weebDetector-mac/releases)
+[the friendly open-source weeb analysis tool !] (https://github.com/Yaroster/weebDetector-mac/releases)
 
 To do:
 - [ ] Error Handling when an invalid XML file is parsed
