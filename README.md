@@ -9,7 +9,7 @@
 
 To do:
 - [ ] Error Handling when an invalid XML file is parsed
-- [ ] Simplifying Code
+- [X] Simplifying Code
 - [ ] Layout cleaning
 - [ ] Initializing segues properly
 - [ ] Disabling _XML_file functions after calculations
