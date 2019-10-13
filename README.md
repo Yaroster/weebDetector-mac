@@ -13,6 +13,7 @@ To do:
 - [ ] Layout cleaning
 - [ ] Initializing segues properly
 - [ ] Disabling _XML_file functions after calculations
+- [ ] Most watched -- general info about the anime watched
 
 ## Made for MyAnimeList and Kitsu users !
 ### Import your Manga/Anime XML files from your favorite anime trackers
