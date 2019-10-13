@@ -5,9 +5,9 @@
 ## [the friendly open-source weeb analysis tool !](https://github.com/Yaroster/weebDetector-mac/releases)
 ### (a mac port of the original .NET weebDetector, now private)
 
-(pre-release)
+(pre-1.0)
 
-To do:
+To do before 1.0:
 - [ ] Error Handling when an invalid XML file is parsed
 - [X] Simplifying Code
 - [ ] Layout cleaning
