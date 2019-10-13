@@ -1,9 +1,7 @@
 # weebDetector-mac
-<img align="left" width="100" height="100" src="https://raw.githubusercontent.com/Yaroster/weebDetector-mac/master/weebDetector/icons/original%20icon.png">
-
 ### [the friendly open-source weeb analysis tool !](https://github.com/Yaroster/weebDetector-mac/releases)
 
-
+<img align="left" width="100" height="100" src="https://raw.githubusercontent.com/Yaroster/weebDetector-mac/master/weebDetector/icons/original%20icon.png">
 
 To do:
 - [ ] Error Handling when an invalid XML file is parsed
