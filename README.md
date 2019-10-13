@@ -2,8 +2,8 @@
 
 <img align="left" width="100" height="100" src="https://raw.githubusercontent.com/Yaroster/weebDetector-mac/master/weebDetector/icons/original%20icon.png">
 
-### [the friendly open-source weeb analysis tool !](https://github.com/Yaroster/weebDetector-mac/releases)
-## (a mac port of the original .NET weebDetector, now private)
+## [the friendly open-source weeb analysis tool !](https://github.com/Yaroster/weebDetector-mac/releases)
+### (a mac port of the original .NET weebDetector, now private)
 
 This is a pre-release
 
