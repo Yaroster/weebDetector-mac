@@ -8,10 +8,11 @@
 (pre-1.0)
 
 To do before 1.0:
-- [ ] Error Handling when an invalid XML file is parsed
 - [X] Simplifying Code
-- [ ] Layout cleaning
-- [ ] Initializing segues properly
+- [X] Layout cleaning
+- [X] Fixing "Exit weebDetector" button
+- [X] Initializing segues properly
+- [ ] Error Handling when an invalid XML file is parsed
 - [ ] Disabling _XML_file functions after calculations
 - [ ] Most watched -- general info about the anime watched
 
