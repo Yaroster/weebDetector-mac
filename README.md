@@ -12,6 +12,7 @@ To do before 1.0:
 - [X] Layout cleaning
 - [X] Fixing "Exit weebDetector" button
 - [X] Initializing segues properly
+- [X] Better commenting
 - [ ] (sub-v.0.0.6) Add "Manga most read" parameter using /my_read_volumes || /my_read_chapters and its status using /my_status on <manga>
 - [ ] Error Handling when an invalid XML file is parsed
 - [ ] Disabling _XML_file functions after calculations
