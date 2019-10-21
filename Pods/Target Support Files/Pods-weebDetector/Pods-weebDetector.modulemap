@@ -1,6 +1,0 @@
-framework module Pods_weebDetector {
-  umbrella header "Pods-weebDetector-umbrella.h"
-
-  export *
-  module * { export * }
-}
