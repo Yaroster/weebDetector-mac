@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18259199235A3C3900F09650 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18259198235A3C3900F09650 /* Main.storyboard */; };
+		1825919A235A3C3900F09650 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18259198235A3C3900F09650 /* Main.storyboard */; };
+		1825919B235A3C3900F09650 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18259198235A3C3900F09650 /* Main.storyboard */; };
+		189A2BB2235D9926004921CE /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189A2BB1235D9926004921CE /* DetailsViewController.swift */; };
+		18A35B71234B91F0006D55CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A35B70234B91F0006D55CF /* AppDelegate.swift */; };
+		18A35B73234B91F0006D55CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A35B72234B91F0006D55CF /* ViewController.swift */; };
+		18A35B75234B91F2006D55CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A35B74234B91F2006D55CF /* Assets.xcassets */; };
+		18A35B84234B91F2006D55CF /* weebDetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A35B83234B91F2006D55CF /* weebDetectorTests.swift */; };
+		18A35B8F234B91F2006D55CF /* weebDetectorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A35B8E234B91F2006D55CF /* weebDetectorUITests.swift */; };
+		4F127080A7044AD6BC1F7460 /* Pods_weebDetectorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE63113F02FC63A8D7455DDF /* Pods_weebDetectorTests.framework */; };
+		CE5DFD1A5ED8287919C90A22 /* Pods_weebDetectorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40BB3FC00FB8DD67AFA82CDB /* Pods_weebDetectorUITests.framework */; };
+		F581BE5B8B5EA8C60647AE03 /* Pods_weebDetector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ED66776916DC3A6456F2137 /* Pods_weebDetector.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18A35B80234B91F2006D55CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A35B65234B91F0006D55CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18A35B6C234B91F0006D55CF;
+			remoteInfo = weebDetector;
+		};
+		18A35B8B234B91F2006D55CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A35B65234B91F0006D55CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18A35B6C234B91F0006D55CF;
+			remoteInfo = weebDetector;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18259198235A3C3900F09650 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = SOURCE_ROOT; };
+		189A2BB1235D9926004921CE /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		18A35B6D234B91F0006D55CF /* weebDetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weebDetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A35B70234B91F0006D55CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18A35B72234B91F0006D55CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18A35B74234B91F2006D55CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18A35B79234B91F2006D55CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A35B7A234B91F2006D55CF /* weebDetector.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = weebDetector.entitlements; sourceTree = "<group>"; };
+		18A35B7F234B91F2006D55CF /* weebDetectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weebDetectorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A35B83234B91F2006D55CF /* weebDetectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weebDetectorTests.swift; sourceTree = "<group>"; };
+		18A35B85234B91F2006D55CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A35B8A234B91F2006D55CF /* weebDetectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weebDetectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A35B8E234B91F2006D55CF /* weebDetectorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weebDetectorUITests.swift; sourceTree = "<group>"; };
+		18A35B90234B91F2006D55CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2ED66776916DC3A6456F2137 /* Pods_weebDetector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_weebDetector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40BB3FC00FB8DD67AFA82CDB /* Pods_weebDetectorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_weebDetectorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AFEAE5EF520713C3EB9DB28 /* Pods-weebDetector.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weebDetector.debug.xcconfig"; path = "Pods/Target Support Files/Pods-weebDetector/Pods-weebDetector.debug.xcconfig"; sourceTree = "<group>"; };
+		4F70AED76115348C10B7650E /* Pods-weebDetectorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weebDetectorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-weebDetectorTests/Pods-weebDetectorTests.release.xcconfig"; sourceTree = "<group>"; };
+		512E7DE360CB4B95182CA0B3 /* Pods-weebDetectorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weebDetectorUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-weebDetectorUITests/Pods-weebDetectorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		90B7488AA393AD284E214A7E /* Pods-weebDetector.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weebDetector.release.xcconfig"; path = "Pods/Target Support Files/Pods-weebDetector/Pods-weebDetector.release.xcconfig"; sourceTree = "<group>"; };
+		9E5C1D074D301A148101ED8C /* Pods-weebDetectorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weebDetectorUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-weebDetectorUITests/Pods-weebDetectorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BE63113F02FC63A8D7455DDF /* Pods_weebDetectorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_weebDetectorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8F55DCF3B088A9CD72507B2 /* Pods-weebDetectorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weebDetectorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-weebDetectorTests/Pods-weebDetectorTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18A35B6A234B91F0006D55CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F581BE5B8B5EA8C60647AE03 /* Pods_weebDetector.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A35B7C234B91F2006D55CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F127080A7044AD6BC1F7460 /* Pods_weebDetectorTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A35B87234B91F2006D55CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE5DFD1A5ED8287919C90A22 /* Pods_weebDetectorUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18A35B64234B91F0006D55CF = {
+			isa = PBXGroup;
+			children = (
+				18A35B6F234B91F0006D55CF /* weebDetector */,
+				18A35B82234B91F2006D55CF /* weebDetectorTests */,
+				18A35B8D234B91F2006D55CF /* weebDetectorUITests */,
+				18A35B6E234B91F0006D55CF /* Products */,
+				9E67EEBB9D5DDE4652DF3096 /* Pods */,
+				458A92A7A06EE6BB7ED104F2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18A35B6E234B91F0006D55CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18A35B6D234B91F0006D55CF /* weebDetector.app */,
+				18A35B7F234B91F2006D55CF /* weebDetectorTests.xctest */,
+				18A35B8A234B91F2006D55CF /* weebDetectorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18A35B6F234B91F0006D55CF /* weebDetector */ = {
+			isa = PBXGroup;
+			children = (
+				18A35B70234B91F0006D55CF /* AppDelegate.swift */,
+				18A35B72234B91F0006D55CF /* ViewController.swift */,
+				189A2BB1235D9926004921CE /* DetailsViewController.swift */,
+				18A35B74234B91F2006D55CF /* Assets.xcassets */,
+				18A35B79234B91F2006D55CF /* Info.plist */,
+				18A35B7A234B91F2006D55CF /* weebDetector.entitlements */,
+				18259198235A3C3900F09650 /* Main.storyboard */,
+			);
+			path = weebDetector;
+			sourceTree = "<group>";
+		};
+		18A35B82234B91F2006D55CF /* weebDetectorTests */ = {
+			isa = PBXGroup;
+			children = (
+				18A35B83234B91F2006D55CF /* weebDetectorTests.swift */,
+				18A35B85234B91F2006D55CF /* Info.plist */,
+			);
+			path = weebDetectorTests;
+			sourceTree = "<group>";
+		};
+		18A35B8D234B91F2006D55CF /* weebDetectorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18A35B8E234B91F2006D55CF /* weebDetectorUITests.swift */,
+				18A35B90234B91F2006D55CF /* Info.plist */,
+			);
+			path = weebDetectorUITests;
+			sourceTree = "<group>";
+		};
+		458A92A7A06EE6BB7ED104F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2ED66776916DC3A6456F2137 /* Pods_weebDetector.framework */,
+				BE63113F02FC63A8D7455DDF /* Pods_weebDetectorTests.framework */,
+				40BB3FC00FB8DD67AFA82CDB /* Pods_weebDetectorUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E67EEBB9D5DDE4652DF3096 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4AFEAE5EF520713C3EB9DB28 /* Pods-weebDetector.debug.xcconfig */,
+				90B7488AA393AD284E214A7E /* Pods-weebDetector.release.xcconfig */,
+				F8F55DCF3B088A9CD72507B2 /* Pods-weebDetectorTests.debug.xcconfig */,
+				4F70AED76115348C10B7650E /* Pods-weebDetectorTests.release.xcconfig */,
+				9E5C1D074D301A148101ED8C /* Pods-weebDetectorUITests.debug.xcconfig */,
+				512E7DE360CB4B95182CA0B3 /* Pods-weebDetectorUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18A35B6C234B91F0006D55CF /* weebDetector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A35B93234B91F2006D55CF /* Build configuration list for PBXNativeTarget "weebDetector" */;
+			buildPhases = (
+				4AF009C9541800DFA13ED282 /* [CP] Check Pods Manifest.lock */,
+				18A35B69234B91F0006D55CF /* Sources */,
+				18A35B6A234B91F0006D55CF /* Frameworks */,
+				18A35B6B234B91F0006D55CF /* Resources */,
+				BFB6F1867A6C7242F21CCAF6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = weebDetector;
+			productName = weebDetector;
+			productReference = 18A35B6D234B91F0006D55CF /* weebDetector.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18A35B7E234B91F2006D55CF /* weebDetectorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A35B96234B91F2006D55CF /* Build configuration list for PBXNativeTarget "weebDetectorTests" */;
+			buildPhases = (
+				AEAB987F081D99B82F71FE97 /* [CP] Check Pods Manifest.lock */,
+				18A35B7B234B91F2006D55CF /* Sources */,
+				18A35B7C234B91F2006D55CF /* Frameworks */,
+				18A35B7D234B91F2006D55CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18A35B81234B91F2006D55CF /* PBXTargetDependency */,
+			);
+			name = weebDetectorTests;
+			productName = weebDetectorTests;
+			productReference = 18A35B7F234B91F2006D55CF /* weebDetectorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18A35B89234B91F2006D55CF /* weebDetectorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A35B99234B91F2006D55CF /* Build configuration list for PBXNativeTarget "weebDetectorUITests" */;
+			buildPhases = (
+				8ED1AEBE03FCC79C63CACC0E /* [CP] Check Pods Manifest.lock */,
+				18A35B86234B91F2006D55CF /* Sources */,
+				18A35B87234B91F2006D55CF /* Frameworks */,
+				18A35B88234B91F2006D55CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18A35B8C234B91F2006D55CF /* PBXTargetDependency */,
+			);
+			name = weebDetectorUITests;
+			productName = weebDetectorUITests;
+			productReference = 18A35B8A234B91F2006D55CF /* weebDetectorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18A35B65234B91F0006D55CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = Yaroster;
+				TargetAttributes = {
+					18A35B6C234B91F0006D55CF = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					18A35B7E234B91F2006D55CF = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 18A35B6C234B91F0006D55CF;
+					};
+					18A35B89234B91F2006D55CF = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 18A35B6C234B91F0006D55CF;
+					};
+				};
+			};
+			buildConfigurationList = 18A35B68234B91F0006D55CF /* Build configuration list for PBXProject "weebDetector" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18A35B64234B91F0006D55CF;
+			productRefGroup = 18A35B6E234B91F0006D55CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18A35B6C234B91F0006D55CF /* weebDetector */,
+				18A35B7E234B91F2006D55CF /* weebDetectorTests */,
+				18A35B89234B91F2006D55CF /* weebDetectorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18A35B6B234B91F0006D55CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A35B75234B91F2006D55CF /* Assets.xcassets in Resources */,
+				18259199235A3C3900F09650 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A35B7D234B91F2006D55CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1825919A235A3C3900F09650 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A35B88234B91F2006D55CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1825919B235A3C3900F09650 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4AF009C9541800DFA13ED282 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-weebDetector-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8ED1AEBE03FCC79C63CACC0E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-weebDetectorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEAB987F081D99B82F71FE97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-weebDetectorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFB6F1867A6C7242F21CCAF6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-weebDetector/Pods-weebDetector-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-weebDetector/Pods-weebDetector-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-weebDetector/Pods-weebDetector-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18A35B69234B91F0006D55CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A35B73234B91F0006D55CF /* ViewController.swift in Sources */,
+				18A35B71234B91F0006D55CF /* AppDelegate.swift in Sources */,
+				189A2BB2235D9926004921CE /* DetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A35B7B234B91F2006D55CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A35B84234B91F2006D55CF /* weebDetectorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A35B86234B91F2006D55CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A35B8F234B91F2006D55CF /* weebDetectorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18A35B81234B91F2006D55CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18A35B6C234B91F0006D55CF /* weebDetector */;
+			targetProxy = 18A35B80234B91F2006D55CF /* PBXContainerItemProxy */;
+		};
+		18A35B8C234B91F2006D55CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18A35B6C234B91F0006D55CF /* weebDetector */;
+			targetProxy = 18A35B8B234B91F2006D55CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		18A35B91234B91F2006D55CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18A35B92234B91F2006D55CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		18A35B94234B91F2006D55CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AFEAE5EF520713C3EB9DB28 /* Pods-weebDetector.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = weebDetector/weebDetector.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = weebDetector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yaroster.weebDetector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		18A35B95234B91F2006D55CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90B7488AA393AD284E214A7E /* Pods-weebDetector.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = weebDetector/weebDetector.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = weebDetector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yaroster.weebDetector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		18A35B97234B91F2006D55CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8F55DCF3B088A9CD72507B2 /* Pods-weebDetectorTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = weebDetectorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = yaroster.weebDetectorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/weebDetector.app/Contents/MacOS/weebDetector";
+			};
+			name = Debug;
+		};
+		18A35B98234B91F2006D55CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F70AED76115348C10B7650E /* Pods-weebDetectorTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = weebDetectorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = yaroster.weebDetectorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/weebDetector.app/Contents/MacOS/weebDetector";
+			};
+			name = Release;
+		};
+		18A35B9A234B91F2006D55CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E5C1D074D301A148101ED8C /* Pods-weebDetectorUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = weebDetectorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yaroster.weebDetectorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = weebDetector;
+			};
+			name = Debug;
+		};
+		18A35B9B234B91F2006D55CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 512E7DE360CB4B95182CA0B3 /* Pods-weebDetectorUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = weebDetectorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yaroster.weebDetectorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = weebDetector;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18A35B68234B91F0006D55CF /* Build configuration list for PBXProject "weebDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A35B91234B91F2006D55CF /* Debug */,
+				18A35B92234B91F2006D55CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A35B93234B91F2006D55CF /* Build configuration list for PBXNativeTarget "weebDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A35B94234B91F2006D55CF /* Debug */,
+				18A35B95234B91F2006D55CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A35B96234B91F2006D55CF /* Build configuration list for PBXNativeTarget "weebDetectorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A35B97234B91F2006D55CF /* Debug */,
+				18A35B98234B91F2006D55CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A35B99234B91F2006D55CF /* Build configuration list for PBXNativeTarget "weebDetectorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A35B9A234B91F2006D55CF /* Debug */,
+				18A35B9B234B91F2006D55CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18A35B65234B91F0006D55CF /* Project object */;
+}
