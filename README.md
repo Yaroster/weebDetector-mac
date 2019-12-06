@@ -21,6 +21,6 @@ To do before 1.0:
 ## Made for MyAnimeList and Kitsu users !
 ### Import your Manga/Anime XML files from your favorite anime trackers
 <p align="center">
-<img width="580" alt="dark_mode" src="https://raw.githubusercontent.com/Yaroster/weebanalyser/master/weebDetector/screenshots/light_screenshot.png">
-<img width="580" alt="light_mode" src="https://raw.githubusercontent.com/Yaroster/weebanalyser/master/weebDetector/screenshots/dark_screenshot.png">
+<img width="551" alt="dark_mode" src="https://raw.githubusercontent.com/Yaroster/weebanalyser/master/weebDetector/screenshots/light_screenshot.png">
+<img width="555" alt="light_mode" src="https://raw.githubusercontent.com/Yaroster/weebanalyser/master/weebDetector/screenshots/dark_screenshot.png">
 </p>
