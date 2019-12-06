@@ -1,4 +1,4 @@
-# weebDetector-mac
+# weebanalyser
 
 <img align="left" width="100" height="100" src="https://raw.githubusercontent.com/Yaroster/weebDetector-mac/master/weebDetector/icons/original%20icon.png">
 
