@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
+options: "342086239414708a8db7bc6e2ca08133"
+build_time: [1575388206, 536398000]
+inputs:
+  "/Users/yaroster/Documents/weebanalyser-mac-master/Pods/SwiftyXMLParser/SwiftyXMLParser/Accessor.swift": [1571610836, 0]
+  "/Users/yaroster/Documents/weebanalyser-mac-master/Pods/SwiftyXMLParser/SwiftyXMLParser/Element.swift": [1571610836, 0]
+  "/Users/yaroster/Documents/weebanalyser-mac-master/Pods/SwiftyXMLParser/SwiftyXMLParser/Error.swift": [1571610836, 0]
+  "/Users/yaroster/Documents/weebanalyser-mac-master/Pods/SwiftyXMLParser/SwiftyXMLParser/Parser.swift": [1571610836, 0]
+  "/Users/yaroster/Documents/weebanalyser-mac-master/Pods/SwiftyXMLParser/SwiftyXMLParser/XML.swift": [1571610836, 0]
