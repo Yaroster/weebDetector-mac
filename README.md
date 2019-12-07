@@ -8,8 +8,6 @@
 (pre-1.0)
 
 To do before 1.0:
-- [X] Error Handling when an invalid XML file is parsed
-- [X] Disabling _XML_file functions after calculations
 - [ ] Details segue
 
 ## Made for MyAnimeList and Kitsu users !
