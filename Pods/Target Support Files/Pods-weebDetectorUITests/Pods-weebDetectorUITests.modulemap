@@ -1,6 +1,0 @@
-framework module Pods_weebDetectorUITests {
-  umbrella header "Pods-weebDetectorUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}
