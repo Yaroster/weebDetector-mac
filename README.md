@@ -8,15 +8,9 @@
 (pre-1.0)
 
 To do before 1.0:
-- [X] Simplifying Code
-- [X] Layout cleaning
-- [X] Fixing "Exit weebanalyser" button
-- [X] Initializing segues properly
-- [X] Better commenting
-- [ ] (sub-v.0.0.6) Add "Manga most read" parameter using /my_read_volumes || /my_read_chapters and its status using /my_status on <manga>
-- [ ] Error Handling when an invalid XML file is parsed
-- [ ] Disabling _XML_file functions after calculations
-- [ ] Most watched -- general info about the anime watched
+- [X] Error Handling when an invalid XML file is parsed
+- [X] Disabling _XML_file functions after calculations
+- [ ] Details segue
 
 ## Made for MyAnimeList and Kitsu users !
 ### Import your Manga/Anime XML files from your favorite anime trackers
