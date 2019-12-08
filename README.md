@@ -5,11 +5,6 @@
 ## [the friendly open-source weeb analysis tool !](https://github.com/Yaroster/weebanalyser/releases)
 ### (a mac port of the original .NET weebanalyser, now private)
 
-(pre-1.0)
-
-To do before 1.0:
-- [ ] Details segue
-
 ## Made for MyAnimeList and Kitsu users !
 ### Import your Manga/Anime XML files from your favorite anime trackers
 <p align="center">
