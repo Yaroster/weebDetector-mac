@@ -3,4 +3,5 @@
 *.gmk linguist-detectable=false
 *.hmake linguist-detectable=false
 *.lock linguist-detectable=false
+*.d linguist-detectable=false
 *.swift linguist-detectable=true
