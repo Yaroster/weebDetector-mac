@@ -2,3 +2,4 @@
 *.make linguist-detectable=false
 *.gmk linguist-detectable=false
 *.hmake linguist-detectable=false
+*.swift linguist-detectable=true
