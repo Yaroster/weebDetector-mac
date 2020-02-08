@@ -11,3 +11,5 @@
 <img width="555" alt="dark_mode" src="https://raw.githubusercontent.com/Yaroster/weebanalyser/master/weebanalyser/screenshots/dark_screenshot.png">
 <img width="551" alt="light_mode" src="https://raw.githubusercontent.com/Yaroster/weebanalyser/master/weebanalyser/screenshots/light_screenshot.png">
 </p>
+# Compiling:
+To compile this you need the [yahoo japan's SwiftyXMLParser](github.com/yahoojapan/SwiftyXMLParser) API
