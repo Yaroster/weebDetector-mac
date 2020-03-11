@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_weebanalyserUITestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_weebanalyserUITestsVersionString[];
+FOUNDATION_EXPORT double Pods_weebanalyser_weebanalyserUITestsVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_weebanalyser_weebanalyserUITestsVersionString[];
 

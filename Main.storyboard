@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15702"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -940,6 +940,17 @@
                                     <segue destination="nip-Nr-JTX" kind="popover" identifier="animedetails_segue" popoverAnchorView="CiB-9J-Fl1" popoverBehavior="t" preferredEdge="maxY" id="rAh-cy-bXZ"/>
                                 </connections>
                             </button>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="i6g-9U-kBq">
+                                <rect key="frame" x="0.0" y="280" width="62" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="bevel" title="↩ Back" bezelStyle="rounded" alignment="center" imageScaling="proportionallyDown" inset="2" id="etA-Kb-VIe">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="anime_backsegue:" target="Vor-lS-b57" id="4dy-xa-uai"/>
+                                </connections>
+                            </button>
                         </subviews>
                     </view>
                     <connections>
@@ -1310,6 +1321,17 @@
                                 <connections>
                                     <action selector="mangadetails_segue_perform:" target="ipq-zB-xga" id="vLn-Pw-LGe"/>
                                     <segue destination="JJE-CJ-foq" kind="popover" identifier="mangadetails_segue" popoverAnchorView="Zcb-cI-9Wb" popoverBehavior="t" preferredEdge="maxY" id="Wph-Jj-82O"/>
+                                </connections>
+                            </button>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7cE-yS-H2x">
+                                <rect key="frame" x="0.0" y="280" width="62" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="bevel" title="↩ Back" bezelStyle="rounded" alignment="center" imageScaling="proportionallyDown" inset="2" id="mTJ-Ua-iTI">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" size="13" name=".LucidaGrandeUI"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="manga_backsegue:" target="ipq-zB-xga" id="EQp-dF-kOa"/>
                                 </connections>
                             </button>
                         </subviews>

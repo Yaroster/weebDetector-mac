@@ -1,0 +1,6 @@
+framework module Pods_weebanalyser_weebanalyserUITests {
+  umbrella header "Pods-weebanalyser-weebanalyserUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

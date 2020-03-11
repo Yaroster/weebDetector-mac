@@ -163,7 +163,15 @@ class ViewController: NSViewController {
         performSegue(withIdentifier: "mangadetails_segue", sender: nil)
     }
     
-//   @IBAction for "Exit weebanalyser Button"
+    @IBAction func manga_backsegue(_ sender: Any) {
+        dismiss(ViewController.self)
+    }
+    
+    @IBAction func anime_backsegue(_ sender: Any) {
+        dismiss(ViewController.self)
+    }
+    
+    //   @IBAction for "Exit weebanalyser Button"
     @IBAction func manga_exit(_ sender: Any) {
         NSApp.miniaturizeAll(nil)
         exit(0)
