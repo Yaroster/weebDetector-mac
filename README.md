@@ -1,6 +1,6 @@
-# weebanalyser-mac [![forthebadge](https://forthebadge.com/images/badges/made-with-swift.svg)](https://forthebadge.com)
+# weebanalyser-mac
 <img align="left" width="100" height="100" src="https://raw.githubusercontent.com/Yaroster/weebanalyser/master/weebanalyser/Assets.xcassets/AppIcon.appiconset/Icon-1024.png">
-
+[![forthebadge](https://forthebadge.com/images/badges/made-with-swift.svg)](https://forthebadge.com)
 ## [the friendly open-source weeb analysis tool !](https://github.com/Yaroster/weebanalyser/releases)
 ### (a mac port of the original .NET weebanalyser, now private)
 
