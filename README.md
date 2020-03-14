@@ -12,5 +12,5 @@
 </p>
 
 # Compiling:
-To compile this you will need yahoo japan's [SwiftyXMLParser](https://github.com/yahoojapan/SwiftyXMLParser)
+To compile this you will need Yahoo!Japan's [SwiftyXMLParser](https://github.com/yahoojapan/SwiftyXMLParser)
 and Xcode (Minimum 10.0)
