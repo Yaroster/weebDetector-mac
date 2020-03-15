@@ -1,30 +1,25 @@
-//
 //  ViewController.swift
 //  weebanalyser
-//
 //  Created by Yaroster on 10/7/19.
-//  Copyright © 2019 Yaroster. All rights reserved.
-//
 
 import Cocoa
 import SwiftyXMLParser
 
-
 class ViewController: NSViewController {
-    
+
+// MARK: Declaring public variables for segue transition in DetailsViewController
     var publicvar_manga_total = ""
     var publicvar_manga_reading = ""
     var publicvar_manga_completed = ""
     var publicvar_manga_planned = ""
     var publicvar_manga_dropped = ""
-    
     var publicvar_anime_total = ""
     var publicvar_anime_watching = ""
     var publicvar_anime_dropped = ""
     var publicvar_anime_planned = ""
     var publicvar_anime_completed = ""
 
-    //    Declaring my Outlets for NSTextField!
+// MARK: Declaring my Outlets for NSTextField!
     @IBOutlet var anime_filename_field: NSTextField!
     @IBOutlet var anime_weeb_name_congratulations: NSTextField!
     @IBOutlet var anime_weeb_percentageLabel: NSTextField!
@@ -34,25 +29,59 @@ class ViewController: NSViewController {
     @IBOutlet var anime_browse_button: NSButton!
     @IBOutlet var manga_browse_button: NSButton!
 
+//MARK: Preparing for Segue to DetailsViewController
     override func viewDidLoad() {
         super.viewDidLoad()
         self.preferredContentSize = NSMakeSize(self.view.frame.size.width, self.view.frame.size.height);
 
 //    Do any additional setup after loading the view
     }
-
     override var representedObject: Any? {
         didSet {
 //        Update the view, if already loaded.
         }
     }
+    override func prepare(for segue: NSStoryboardSegue, sender: Any?) {
+        if (segue.identifier == "mangadetails_segue") {
+            let Dvc = segue.destinationController as? DetailsViewController
+            Dvc!.Details_publicvar_manga_total = publicvar_manga_total
+            Dvc!.Details_publicvar_manga_reading = publicvar_manga_reading
+            Dvc!.Details_publicvar_manga_completed = publicvar_manga_completed
+            Dvc!.Details_publicvar_manga_planned = publicvar_manga_planned
+            Dvc!.Details_publicvar_manga_dropped = publicvar_manga_dropped
+        } else if (segue.identifier == "animedetails_segue") {
+            let Dvc = segue.destinationController as? DetailsViewController
+            Dvc!.Details_publicvar_anime_total = publicvar_anime_total
+            Dvc!.Details_publicvar_anime_dropped = publicvar_anime_dropped
+            Dvc!.Details_publicvar_anime_planned = publicvar_anime_planned
+            Dvc!.Details_publicvar_anime_completed = publicvar_anime_completed
+            Dvc!.Details_publicvar_anime_watching = publicvar_anime_watching
+        }
+    }
     
-//    Hyperlinking
+//  MARK:  Hyperlink Buttons for NSButton in 2nd Segue
     @IBAction func Anime_XML_link(_ sender: Any) {NSWorkspace.shared.open(NSURL(string: "https://malscraper.azurewebsites.net/")! as URL)}
     @IBAction func Manga_XML_link(_ sender: Any) {NSWorkspace.shared.open(NSURL(string: "https://malscraper.azurewebsites.net/")! as URL)}
 
+// MARK: Back Button actions for NSButton in 2nd Segue
+    @IBAction func manga_backsegue(_ sender: Any) {
+        dismiss(ViewController.self)
+    }
+    @IBAction func anime_backsegue(_ sender: Any) {
+        dismiss(ViewController.self)
+    }
 
-//    Declaring anime_XML_file as URL and parsing the data to give a percentage and Details_NSTextField!
+//MARK: Exit Button actions for NSButton in 2nd Segue
+    @IBAction func manga_exit(_ sender: Any) {
+        NSApp.miniaturizeAll(nil)
+        exit(0)
+    }
+    @IBAction func anime_exit(_ sender: Any) {
+        NSApp.miniaturizeAll(nil)
+        exit(0)
+    }
+
+// MARK: Declaring XML Parsing and NSOpenPanel() functions
     @IBAction func anime_XML_file(_ sender: Any) {
         let dialog = NSOpenPanel();
             dialog.title = "Choose an anime .xml file";
@@ -93,7 +122,6 @@ class ViewController: NSViewController {
                             unknown_alert.addButton(withTitle: "Close")
                             unknown_alert.runModal()
                         }}catch{}} else {}}else{return}}
-
     @IBAction func manga_XML_file(_ sender: Any) {
         let dialog = NSOpenPanel();
             dialog.title = "Choose a manga .xml file";
@@ -138,46 +166,5 @@ class ViewController: NSViewController {
                 }
             }
         }
-    }
-
-
-    override func prepare(for segue: NSStoryboardSegue, sender: Any?) {
-        if (segue.identifier == "mangadetails_segue") {
-            let Dvc = segue.destinationController as? DetailsViewController
-            Dvc!.Details_publicvar_manga_total = publicvar_manga_total
-            Dvc!.Details_publicvar_manga_reading = publicvar_manga_reading
-            Dvc!.Details_publicvar_manga_completed = publicvar_manga_completed
-            Dvc!.Details_publicvar_manga_planned = publicvar_manga_planned
-            Dvc!.Details_publicvar_manga_dropped = publicvar_manga_dropped
-        } else if (segue.identifier == "animedetails_segue") {
-            let Dvc = segue.destinationController as? DetailsViewController
-            Dvc!.Details_publicvar_anime_total = publicvar_anime_total
-            Dvc!.Details_publicvar_anime_dropped = publicvar_anime_dropped
-            Dvc!.Details_publicvar_anime_planned = publicvar_anime_planned
-            Dvc!.Details_publicvar_anime_completed = publicvar_anime_completed
-            Dvc!.Details_publicvar_anime_watching = publicvar_anime_watching
-        }
-    }
-    
-    @IBAction func mangadetails_segue_perform(_ sender: Any?) {
-        performSegue(withIdentifier: "mangadetails_segue", sender: nil)
-    }
-    
-    @IBAction func manga_backsegue(_ sender: Any) {
-        dismiss(ViewController.self)
-    }
-    
-    @IBAction func anime_backsegue(_ sender: Any) {
-        dismiss(ViewController.self)
-    }
-    
-    //   @IBAction for "Exit weebanalyser Button"
-    @IBAction func manga_exit(_ sender: Any) {
-        NSApp.miniaturizeAll(nil)
-        exit(0)
-    }
-    @IBAction func anime_exit(_ sender: Any) {
-        NSApp.miniaturizeAll(nil)
-        exit(0)
     }
 }

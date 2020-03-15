@@ -711,9 +711,9 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WkS-cs-V8l">
-                                <rect key="frame" x="522" y="8" width="24" height="13"/>
+                                <rect key="frame" x="514" y="8" width="32" height="13"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <textFieldCell key="cell" lineBreakMode="clipping" alignment="right" title="v1.0" id="IZr-G7-7rC">
+                                <textFieldCell key="cell" lineBreakMode="clipping" alignment="right" title="v1.0.2" id="IZr-G7-7rC">
                                     <font key="font" metaFont="system" size="10"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -1328,7 +1328,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="bevel" title="↩ Back" bezelStyle="rounded" alignment="center" imageScaling="proportionallyDown" inset="2" id="mTJ-Ua-iTI">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" size="13" name=".LucidaGrandeUI"/>
+                                    <font key="font" size="13" name="LucidaGrande"/>
                                 </buttonCell>
                                 <connections>
                                     <action selector="manga_backsegue:" target="ipq-zB-xga" id="EQp-dF-kOa"/>
