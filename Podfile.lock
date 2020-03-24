@@ -1,8 +1,14 @@
 PODS:
+  - SwiftyJSON (4.3.0)
   - SwiftyXMLParser (5.1.0)
 
 DEPENDENCIES:
+  - SwiftyJSON (~> 4.0)
   - SwiftyXMLParser (from `https://github.com/yahoojapan/SwiftyXMLParser.git`)
+
+SPEC REPOS:
+  trunk:
+    - SwiftyJSON
 
 EXTERNAL SOURCES:
   SwiftyXMLParser:
@@ -14,8 +20,9 @@ CHECKOUT OPTIONS:
     :git: https://github.com/yahoojapan/SwiftyXMLParser.git
 
 SPEC CHECKSUMS:
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
   SwiftyXMLParser: 8271497e0a37b5c04b0b167c77b4896e36175a21
 
-PODFILE CHECKSUM: 46abc37354091f276438bf4c60e7832163de28bb
+PODFILE CHECKSUM: 42d4f46fe8f20b96ff7e6458e8b9f5748212ad28
 
 COCOAPODS: 1.9.1
