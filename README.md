@@ -11,6 +11,10 @@
 <img width="551" alt="light_mode" src="https://raw.githubusercontent.com/Yaroster/weebanalyser/master/weebanalyser/screenshots/light_screenshot.png">
 </p>
 
+# To do:
+There's still a lot more to do and I still have a lot of Ideas !!
+- [ ] Add details for Username inputs (anime_url, most watched anime, total_anime, num_chapters and num_read_chapters to give a general percentage of completion, show image in Details page, etc.)
+
 # Compiling:
 To compile this you will need Yahoo!Japan's [SwiftyXMLParser](https://github.com/yahoojapan/SwiftyXMLParser)
 and Xcode (Minimum 10.0)
