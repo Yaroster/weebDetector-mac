@@ -1,3 +1,4 @@
 ${PODS_ROOT}/Target Support Files/Pods-weebanalyser/Pods-weebanalyser-frameworks.sh
+${BUILT_PRODUCTS_DIR}/CustomSegue/CustomSegue.framework
 ${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework
 ${BUILT_PRODUCTS_DIR}/SwiftyXMLParser/SwiftyXMLParser.framework

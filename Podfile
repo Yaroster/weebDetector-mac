@@ -5,6 +5,7 @@ target 'weebanalyser' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
   # Pods for weebanalyser
+  pod 'CustomSegue'
   pod 'SwiftyJSON', '~> 4.0'
   pod "SwiftyXMLParser", :git => 'https://github.com/yahoojapan/SwiftyXMLParser.git'
   

@@ -1,13 +1,16 @@
 PODS:
+  - CustomSegue (4.0.0)
   - SwiftyJSON (4.3.0)
   - SwiftyXMLParser (5.1.0)
 
 DEPENDENCIES:
+  - CustomSegue
   - SwiftyJSON (~> 4.0)
   - SwiftyXMLParser (from `https://github.com/yahoojapan/SwiftyXMLParser.git`)
 
 SPEC REPOS:
   trunk:
+    - CustomSegue
     - SwiftyJSON
 
 EXTERNAL SOURCES:
@@ -20,9 +23,10 @@ CHECKOUT OPTIONS:
     :git: https://github.com/yahoojapan/SwiftyXMLParser.git
 
 SPEC CHECKSUMS:
+  CustomSegue: 10976268295d8b38c0b5ad191434b99b55da3ef1
   SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
   SwiftyXMLParser: 8271497e0a37b5c04b0b167c77b4896e36175a21
 
-PODFILE CHECKSUM: 42d4f46fe8f20b96ff7e6458e8b9f5748212ad28
+PODFILE CHECKSUM: 782c7e4a6e367af0a540a94cca74374e045228bb
 
 COCOAPODS: 1.9.1
