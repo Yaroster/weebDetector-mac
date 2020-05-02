@@ -102,7 +102,7 @@
 		0E40C7FC89AC3BB5C9AD1241E21B9BE5 /* Pods-weebanalyser-weebanalyserUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-weebanalyser-weebanalyserUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0EF17D0E65C91F136618EA0ED7190A7F /* Pods-weebanalyser-weebanalyserUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-weebanalyser-weebanalyserUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		1067A587DA8DAC4C151E84FA0607C1D9 /* Pods-weebanalyser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-weebanalyser.debug.xcconfig"; sourceTree = "<group>"; };
-		111B1206601E30F2ECF91E457ED0A7A7 /* Pods_weebanalyser_weebanalyserUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_weebanalyser_weebanalyserUITests.framework; path = "Pods-weebanalyser-weebanalyserUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		111B1206601E30F2ECF91E457ED0A7A7 /* Pods_weebanalyser_weebanalyserUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_weebanalyser_weebanalyserUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		15982C584114718E13B8C4968E5B1C3F /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON/SwiftyJSON.swift; sourceTree = "<group>"; };
 		183C18D4B0C008D9CA594B83C2606B29 /* TablePopoverSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TablePopoverSegue.swift; path = Sources/TablePopoverSegue.swift; sourceTree = "<group>"; };
 		1BF370CD96D413A8D2CEF1389F3A3C51 /* SwiftyXMLParser-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyXMLParser-Info.plist"; sourceTree = "<group>"; };
@@ -115,7 +115,7 @@
 		3DA00BC8CFE763AF57534856992E92FE /* CustomSegue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CustomSegue.debug.xcconfig; sourceTree = "<group>"; };
 		3ED9C73834CB396A73AB3508B367C7A2 /* Pods-weebanalyserTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-weebanalyserTests.modulemap"; sourceTree = "<group>"; };
 		3F6688B3172F4B6704EA3D179A727587 /* SplitViewSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SplitViewSegue.swift; path = Sources/SplitViewSegue.swift; sourceTree = "<group>"; };
-		4232468C2A600E06589CDB95C9D2FF29 /* SwiftyXMLParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyXMLParser.framework; path = SwiftyXMLParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4232468C2A600E06589CDB95C9D2FF29 /* SwiftyXMLParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyXMLParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4246E069E1B91D60D7D0A34C365F181C /* SwiftyXMLParser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyXMLParser-prefix.pch"; sourceTree = "<group>"; };
 		451DBCD5DD78046E4420FBC5A6404D89 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
 		4850A17A2869564480DA5728A6F4563C /* PresentWithAnimatorSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentWithAnimatorSegue.swift; path = Sources/PresentWithAnimatorSegue.swift; sourceTree = "<group>"; };
@@ -141,7 +141,7 @@
 		9B092FA77DCEAC1D26133E0EEDF5BAF8 /* Pods-weebanalyserTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-weebanalyserTests-umbrella.h"; sourceTree = "<group>"; };
 		9D0A693DFA03113B5CF3583CD741B60E /* Pods-weebanalyser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-weebanalyser-dummy.m"; sourceTree = "<group>"; };
 		9D2272FD94EF1449ABE83EB704011B97 /* CustomSegue.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CustomSegue.modulemap; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A41443D3381FC3AD1C984659AB6271BD /* Pods-weebanalyser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-weebanalyser.modulemap"; sourceTree = "<group>"; };
 		A473B7DD8CE72C2763CD80C73D67AE4F /* Pods-weebanalyserTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-weebanalyserTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A76C32E9C6CCFAC0E2A5D6F55ED6C4AB /* SwiftyXMLParser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyXMLParser-dummy.m"; sourceTree = "<group>"; };
@@ -149,20 +149,20 @@
 		B75D27A7F14BAA642CF8F931AE2F2E72 /* Pods-weebanalyser-weebanalyserUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-weebanalyser-weebanalyserUITests-Info.plist"; sourceTree = "<group>"; };
 		BA823BA12498C85872727BD7E33E9801 /* CustomSegue-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CustomSegue-dummy.m"; sourceTree = "<group>"; };
 		BDE6D3BC2FD56C0A4F2BFBC75A4E7DBE /* TransitionFromViewSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionFromViewSegue.swift; path = Sources/TransitionFromViewSegue.swift; sourceTree = "<group>"; };
-		C76B231613CE322FCB3A84C34D37D7E1 /* Pods_weebanalyserTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_weebanalyserTests.framework; path = "Pods-weebanalyserTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C76B231613CE322FCB3A84C34D37D7E1 /* Pods_weebanalyserTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_weebanalyserTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8AE563131C762B5C54F599DBBF78ECF /* ChildWindowSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChildWindowSegue.swift; path = Sources/ChildWindowSegue.swift; sourceTree = "<group>"; };
 		C962AF03D0B688F15EDE2AE3834E9532 /* Pods-weebanalyser-weebanalyserUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-weebanalyser-weebanalyserUITests.release.xcconfig"; sourceTree = "<group>"; };
 		CBC705778EF9388C2F7983AD7395A03B /* XML.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XML.swift; path = SwiftyXMLParser/XML.swift; sourceTree = "<group>"; };
-		CDED44C15957B331A4CDA428F405F5DE /* CustomSegue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CustomSegue.framework; path = CustomSegue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDED44C15957B331A4CDA428F405F5DE /* CustomSegue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CustomSegue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D462471239435D55A467A5FD5BFBCF34 /* CustomSegue-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CustomSegue-Info.plist"; sourceTree = "<group>"; };
 		DD09403F93FD70EB029B1F00796E596D /* Pods-weebanalyser-weebanalyserUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-weebanalyser-weebanalyserUITests-umbrella.h"; sourceTree = "<group>"; };
 		DD52AE3E8359E8FEA71D1BE1934B57E4 /* Parser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = SwiftyXMLParser/Parser.swift; sourceTree = "<group>"; };
 		DEDF3EFE3D2CBE5E5381A1C7FA30BC13 /* ReplaceWindowContentSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceWindowContentSegue.swift; path = Sources/ReplaceWindowContentSegue.swift; sourceTree = "<group>"; };
 		E15F031546FE84A12E7D6FD720FD6A22 /* SwiftyJSON-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyJSON-Info.plist"; sourceTree = "<group>"; };
-		E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E300201B6FF3CB6B173E349432992AE4 /* TransitionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionAnimator.swift; path = Sources/TransitionAnimator.swift; sourceTree = "<group>"; };
 		E522F8F972C33982CCF2E76AE8687153 /* SwiftyXMLParser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyXMLParser-umbrella.h"; sourceTree = "<group>"; };
-		E84C400856DE14BC24419DBE514B297F /* Pods_weebanalyser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_weebanalyser.framework; path = "Pods-weebanalyser.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E84C400856DE14BC24419DBE514B297F /* Pods_weebanalyser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_weebanalyser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F438749ADD6DF2308B9BEA44957DEA4C /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
 		F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -256,7 +256,6 @@
 				15982C584114718E13B8C4968E5B1C3F /* SwiftyJSON.swift */,
 				A918A8751766CCF6D63D1E26398DF9D4 /* Support Files */,
 			);
-			name = SwiftyJSON;
 			path = SwiftyJSON;
 			sourceTree = "<group>";
 		};
@@ -270,7 +269,6 @@
 				CBC705778EF9388C2F7983AD7395A03B /* XML.swift */,
 				614F7DD72127D947F2B4E25F2F76B9D6 /* Support Files */,
 			);
-			name = SwiftyXMLParser;
 			path = SwiftyXMLParser;
 			sourceTree = "<group>";
 		};
@@ -288,7 +286,6 @@
 				BDE6D3BC2FD56C0A4F2BFBC75A4E7DBE /* TransitionFromViewSegue.swift */,
 				068D422F118795820D4CC32C42195FEA /* Support Files */,
 			);
-			name = CustomSegue;
 			path = CustomSegue;
 			sourceTree = "<group>";
 		};
@@ -592,7 +589,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1130;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 9.3";
@@ -779,7 +776,6 @@
 			baseConfigurationReference = 06EB7DFD49ECA6CBBC549029A8270BDA /* Pods-weebanalyserTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -942,7 +938,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1EC2B6092C8ED40BF9B2116D27D02F9C /* SwiftyXMLParser.debug.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -981,7 +976,6 @@
 			baseConfigurationReference = 92995A3476DB012884F493220BE2E54B /* Pods-weebanalyserTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1021,7 +1015,6 @@
 			baseConfigurationReference = C962AF03D0B688F15EDE2AE3834E9532 /* Pods-weebanalyser-weebanalyserUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1060,7 +1053,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 300514C90381E9C6819FF556F2F91825 /* CustomSegue.release.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1098,7 +1090,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2F9F48A7E8EDF8DF6C33F0671A13B450 /* SwiftyJSON.debug.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1135,7 +1126,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7414751AFA2131CF558D9EF9178ADBE9 /* SwiftyJSON.release.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1172,7 +1162,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 94FBC1E6460408040432251EC50E5BFC /* SwiftyXMLParser.release.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1210,7 +1199,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3DA00BC8CFE763AF57534856992E92FE /* CustomSegue.debug.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1249,7 +1237,6 @@
 			baseConfigurationReference = 1067A587DA8DAC4C151E84FA0607C1D9 /* Pods-weebanalyser.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1289,7 +1276,6 @@
 			baseConfigurationReference = 01BB43B2A0E5A32A9EEE27031BA9D71C /* Pods-weebanalyser-weebanalyserUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1329,7 +1315,6 @@
 			baseConfigurationReference = 86A9860BE3E6CB983561F89F86736C82 /* Pods-weebanalyser.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
