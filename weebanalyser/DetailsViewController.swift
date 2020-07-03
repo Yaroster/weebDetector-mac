@@ -30,7 +30,7 @@ class DetailsViewController: NSViewController {
     @IBOutlet var anime_dropped_label: NSTextField!
     @IBOutlet var anime_planned_label: NSTextField!
     @IBOutlet var anime_completed_label: NSTextField!
-    
+
     @IBAction func helpbutton(_ sender: Any) {
         NSWorkspace.shared.open(NSURL(string: "https://gist.github.com/Yaroster/919f150d54d8da5405000de5b511e23b")! as URL)
     }

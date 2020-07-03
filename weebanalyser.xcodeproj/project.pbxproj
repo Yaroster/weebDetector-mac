@@ -14,8 +14,6 @@
 		18A35B71234B91F0006D55CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A35B70234B91F0006D55CF /* AppDelegate.swift */; };
 		18A35B73234B91F0006D55CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A35B72234B91F0006D55CF /* ViewController.swift */; };
 		18A35B75234B91F2006D55CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A35B74234B91F2006D55CF /* Assets.xcassets */; };
-		18A35B84234B91F2006D55CF /* weebanalyserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A35B83234B91F2006D55CF /* weebanalyserTests.swift */; };
-		18A35B8F234B91F2006D55CF /* weebanalyserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A35B8E234B91F2006D55CF /* weebanalyserUITests.swift */; };
 		5C2683A370B13B8844A38797 /* Pods_weebanalyserTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7082BEF5CE1200F1F69FF6E /* Pods_weebanalyserTests.framework */; };
 		6FE137662C903C5F88A21C13 /* Pods_weebanalyser_weebanalyserUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40D04C340545557EDB70DA5C /* Pods_weebanalyser_weebanalyserUITests.framework */; };
 		C8A96588A7EEA71493DC7117 /* Pods_weebanalyser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB238280B60BA03350A63D3D /* Pods_weebanalyser.framework */; };
@@ -50,11 +48,7 @@
 		18A35B79234B91F2006D55CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18A35B7A234B91F2006D55CF /* weebanalyser.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = weebanalyser.entitlements; sourceTree = "<group>"; };
 		18A35B7F234B91F2006D55CF /* weebanalyserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weebanalyserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		18A35B83234B91F2006D55CF /* weebanalyserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weebanalyserTests.swift; sourceTree = "<group>"; };
-		18A35B85234B91F2006D55CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18A35B8A234B91F2006D55CF /* weebanalyserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weebanalyserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		18A35B8E234B91F2006D55CF /* weebanalyserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weebanalyserUITests.swift; sourceTree = "<group>"; };
-		18A35B90234B91F2006D55CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40D04C340545557EDB70DA5C /* Pods_weebanalyser_weebanalyserUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_weebanalyser_weebanalyserUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D7E1D3D43D30EB13074F589 /* Pods-weebanalyser-weebanalyserUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weebanalyser-weebanalyserUITests.debug.xcconfig"; path = "Target Support Files/Pods-weebanalyser-weebanalyserUITests/Pods-weebanalyser-weebanalyserUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B16AD46D68BB512BAB58F697 /* Pods-weebanalyserTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weebanalyserTests.release.xcconfig"; path = "Target Support Files/Pods-weebanalyserTests/Pods-weebanalyserTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -96,8 +90,6 @@
 			isa = PBXGroup;
 			children = (
 				18A35B6F234B91F0006D55CF /* weebanalyser */,
-				18A35B82234B91F2006D55CF /* weebanalyserTests */,
-				18A35B8D234B91F2006D55CF /* weebanalyserUITests */,
 				18A35B6E234B91F0006D55CF /* Products */,
 				55F3487859F5DB14C7CD0C36 /* Pods */,
 				4B496758F20718BEFB437197 /* Frameworks */,
@@ -126,24 +118,6 @@
 				18259198235A3C3900F09650 /* Main.storyboard */,
 			);
 			path = weebanalyser;
-			sourceTree = "<group>";
-		};
-		18A35B82234B91F2006D55CF /* weebanalyserTests */ = {
-			isa = PBXGroup;
-			children = (
-				18A35B83234B91F2006D55CF /* weebanalyserTests.swift */,
-				18A35B85234B91F2006D55CF /* Info.plist */,
-			);
-			path = weebanalyserTests;
-			sourceTree = "<group>";
-		};
-		18A35B8D234B91F2006D55CF /* weebanalyserUITests */ = {
-			isa = PBXGroup;
-			children = (
-				18A35B8E234B91F2006D55CF /* weebanalyserUITests.swift */,
-				18A35B90234B91F2006D55CF /* Info.plist */,
-			);
-			path = weebanalyserUITests;
 			sourceTree = "<group>";
 		};
 		4B496758F20718BEFB437197 /* Frameworks */ = {
@@ -237,7 +211,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1120;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = Yaroster;
 				TargetAttributes = {
 					18A35B6C234B91F0006D55CF = {
@@ -419,7 +393,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18A35B84234B91F2006D55CF /* weebanalyserTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,7 +400,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18A35B8F234B91F2006D55CF /* weebanalyserUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,6 +445,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -533,6 +506,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;

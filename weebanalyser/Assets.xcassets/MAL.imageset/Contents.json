@@ -1,17 +1,15 @@
 {
   "images" : [
     {
-      "filename" : "weebanalyser_black.png",
+      "filename" : "apps.63654.9007199266506523.6eac6b6a-8bb6-459f-b5bb-28383cc469bc.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "weebanalyser_black-1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "weebanalyser_black-2.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
