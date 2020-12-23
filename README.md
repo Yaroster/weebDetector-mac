@@ -1,5 +1,5 @@
 # weebanalyser-mac
-<img align="left" width="100" height="100" src="https://github.com/Yaroster/weebanalyser/blob/master/weebanalyser_logo.png">
+<img align="left" width="100" height="100" src="https://github.com/Yaroster/weebanalyser/blob/master/Logo_weebanalyser_2.0.png">
 
 ## [the friendly open-source weeb analysis tool !](https://github.com/Yaroster/weebanalyser/releases)
 [![forthebadge](https://forthebadge.com/images/badges/made-with-swift.svg)](https://forthebadge.com)
